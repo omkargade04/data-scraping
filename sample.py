@@ -5,5 +5,5 @@ def saveFileasHTML(url: str, filename: str):
     with open(filename, 'w', encoding='utf-8') as file:
         file.write(response.text)
 
-url = "https://cms.nic.in/"
+url = "https://ncdrc.nic.in/"
 saveFileasHTML(url, "data/ncdrc.html")
